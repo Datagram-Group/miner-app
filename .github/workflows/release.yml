@@ -33,6 +33,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: 'Datagram-Group/node-dashboard'
+          ref: 'prod-tauri'
           submodules: 'true'
           token: ${{ secrets.PAT_TOKEN }}
 
@@ -78,6 +79,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: 'Datagram-Group/node-dashboard'
+          ref: 'prod-tauri'
           submodules: 'true'
           token: ${{ secrets.PAT_TOKEN }}
 
